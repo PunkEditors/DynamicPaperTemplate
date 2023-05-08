@@ -14,11 +14,17 @@ jobs:
       contents: write
     steps:
       - name: Check out repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
         
+      - name: Install TinyTeX
+        run: quarto install tool tinytex --log-level warning
+      
+      - name: Install cURL Headers
+        run: sudo apt-get install libcurl4-openssl-dev
+      
       - name: Install R
         uses: r-lib/actions/setup-r@v2
 
@@ -26,7 +32,18 @@ jobs:
         uses: r-lib/actions/setup-renv@v2
         with:
           cache-version: 1
-          
+      
+      #- name: Run an R script to track estimates    
+      #  run: Rscript scripts/track_estimates.R   
+      
+      #- name: Commit results
+      #  run: |
+      #    git config --local user.email "actions@github.com"
+      #    git config --local user.name "GitHub Actions"
+      #    git add .
+      #    git commit -m "Update from R script" || echo "No changes to commit"
+      #    git push origin || echo "No changes to commit"-  
+      
       - name: Render and Publish
         uses: quarto-dev/quarto-actions/publish@v2
         with:
