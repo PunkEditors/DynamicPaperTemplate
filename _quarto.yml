@@ -34,7 +34,7 @@ website:
 
 format:
   html:
-    theme: quartz #change it here if you don't like the electric pink https://quarto.org/docs/output-formats/html-themes.html
+    theme: quartz #change it here if you don't like the electric pink https://quarto.org/docs/output-formats/html-themes.html e.g. minty
     #css: styles.css
     toc: true
     

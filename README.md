@@ -6,7 +6,7 @@ This repo is a generic template to create Dynamic Papers.
 
 # Why?  
 
-We believe that the scientific publishing system is outdated. Science is a continuous process. Publishing should not be a goal, but a mean to showcase snapshots of this process. A way to achieve that change is self-publishing dynamic documents that track how our knowledge change with time. This repo helps building such experience.
+We believe that the scientific publishing system is outdated. Science is a continuous process. Publishing should not be a goal, but a mean to showcase snapshots of this process. A way to achieve that change is self-publishing DIY dynamic documents that track how our knowledge change with time. This repo helps building such experience.
 
 # How? 
 

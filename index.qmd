@@ -33,6 +33,8 @@ You can cite this dynamic document: P. Author. `r substr(Sys.Date(), 1, 4)` Punk
 
 ### Download in PDF:
 
+<https://PunkUserName.github.io/PunkRepoName/REPORT.pdf>
+
 ### Source code:
 
-You can find the source code, as well as previous releases of this repositoty at: [https://github.com/PunkUserName/PunkRepoName](https://github.com/PunkUserName/PunkRepoName)
+You can find the source code, as well as previous releases of this repositoty at: <https://github.com/PunkUserName/PunkRepoName>
