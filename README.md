@@ -1,6 +1,6 @@
 [![DOI](https://zenodo.org/badge/000000000.svg)](https://zenodo.org/badge/latestdoi/000000000)
 
-# Dynamic Punk Papers
+# Dynamic PunkEditors Papers
 
 This repo is a generic template to create Dynamic Papers. 
 
